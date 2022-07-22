@@ -13,7 +13,7 @@ contract SimpleStorage {
         string name;
     }
     
-
+    // How to create a struct
     People[] public people;
     mapping(string => uint256) public nameToFavouriteNumber;
 
